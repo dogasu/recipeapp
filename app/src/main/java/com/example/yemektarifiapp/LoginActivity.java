@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
         // Basit bir kullanıcı kontrolü (Örnek için SharedPreferences kullanıyoruz)
         // Gerçek uygulamalarda veritabanı veya sunucu tarafında yapılmalıdır
         String savedPassword = getSharedPreferences("UserPrefs", MODE_PRIVATE)
-                .getString(username, null);
+                .getString(username + "_password", null);
         return password.equals(savedPassword);
     }
 }

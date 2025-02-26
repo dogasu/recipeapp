@@ -2,4 +2,17 @@
 <resources>
     <string name="app_name">Yemek Tarifi App</string>
     <string name="back_button_text">come back</string>
-</resources>
+    <string name="first_name_hint">İsim</string>
+    <string name="last_name_hint">Soyisim</string>
+    <string name="username_hint">Kullanıcı Adı</string>
+    <string name="password_hint">Şifre</string>
+    <string name="birth_date_hint">Doğum Tarihi (YYYY-MM-DD)</string>
+    <string name="register_button_text">Kayıt Ol</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="other">Diğer</string>
+    <string name="login_button_text">Giriş Yap</string>
+
+    </resources>
+
+
